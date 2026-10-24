@@ -58,7 +58,7 @@ jobs:
 
           # GitHub username to generate the animation for
 
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: shadowr22-zzz
 
 
 
@@ -86,8 +86,7 @@ jobs:
 
         with:
 
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-
+          github_token: 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
           publish_dir: ./dist
 
           publish_branch: output
